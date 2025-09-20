@@ -1,0 +1,10 @@
+#print() parametreleri
+#print(help(print))
+print("ömer","yasin","gamze")
+print("ömer","yasin","gamze", sep="*")
+print("ömer","yasin","gamze", sep="-----")
+#print("ömer","yasin","gamze", sep="\t")
+print("ömer","yasin","gamze", end="+++\n")
+print("ömer","yasin","gamze", sep="-----")
+print("ömer","yasin","gamze",sep="---",end="\t")
+print("ömer","yasin","gamze")

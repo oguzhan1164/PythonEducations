@@ -1,0 +1,6 @@
+print("benim adım : ","Salih Enes")
+print("benim soyadım : YELKEN")
+print("Yaşım : ",19)
+print("kursa katılma durumum: ",True)
+print("kursa katılma oranım : ",0.95)
+print("benim adım ","Salih Enes" ," soyadım YELKEN" ," yaşım ",19 ," kursa katılma durumum", True," katılım oranım ",0.95)
