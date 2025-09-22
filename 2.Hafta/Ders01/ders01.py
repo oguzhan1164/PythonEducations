@@ -1,6 +1,11 @@
-isim1 = "Ali"
-isim2 = "Ayşe"
+isim1 = "gülsüm"
+isim2 = "timur"
 
-isim50 = "Zeynep"
+isim50 = "enes"
 
-ogrenciler = ["Ali", "Ayşe", "Mehmet", "Zeynep"]
+isim86 = "aslı"
+
+ogrenciler = ["gülsüm", "timur", "enes", "aslı"]
+
+
+print(ogrenciler)
