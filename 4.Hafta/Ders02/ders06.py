@@ -10,18 +10,20 @@ class basketbolcu():
     turnike = "turnike atabilir"
     ucluk = "üçlük atabilir"
     maas = 750
-    def __init__(self):
+    def __init__(self,boy):
         self.bolge = "ileri"
+        self.boy = boy
     pass
 class multisporcu(basketbolcu,futbolcu):
-    def __init__(self,ayak):
-        basketbolcu.__init__(self)
+    def __init__(self,ayak,boy):
+        basketbolcu.__init__(self,boy)
         futbolcu.__init__(self,ayak)
     pass
-mahmut = multisporcu("sol")
+mahmut = multisporcu("sol",190)
 print(mahmut.turnike)
 print(mahmut.kosu)
 print(mahmut.maas)
 print(mahmut.bolge)
 print(mahmut.mevki)
 print(mahmut.ayak)
+print(mahmut.boy)

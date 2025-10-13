@@ -23,7 +23,7 @@ Adım A: Bağlantı ve Yapılandırma
 
 from sqlalchemy import create_engine, Column, Integer, String
 from sqlalchemy.orm import sessionmaker, declarative_base
-
+#pip install sqlalchemy
 # 1. Veritabanı Bağlantısı (Engine) Oluşturma
 # SQLite kullanıyoruz ve 'kutuphane_orm.db' adında bir dosya oluşturulacak.
 engine = create_engine('sqlite:///kutuphane_orm.db')
